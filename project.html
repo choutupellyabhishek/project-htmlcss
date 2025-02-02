@@ -9,7 +9,7 @@
 <body>
     <div class="maincontainer">
         
-        <div class="container">
+        <div class="container" id="home">
             
             
             <img class="c" src="https://themewagon.github.io/marco/img/logo.png" alt="">
@@ -24,17 +24,28 @@
         
             
         </div>
-         <div class="container-1">
-            <a href="" class="a-1" id="#home">HOME</a>
-            <a href="" class="a-1" id="about">ABOUT</a>
-            <a href="" class="a-1" id="#menu">MENU</a>
-            <a href="" class="a-1" id="#gallery">GALLERY </a>
-            <a href="" class="a-1" id="#blog">BLOG</a>
-            <a href="" class="a-1" id="#pages">PAGES</a>
-            <a href="" class="a-1" id="#contact">CONTACT</a>
-         </div>
-         <section class="about">
-            <div class="about-content">
+        
+        <nav class="navbar">
+        
+            <input type="checkbox" id="menu-toggle">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#pages">Pages</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+            <label for="menu-toggle" class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </label>
+        </nav>
+         <section class="about" >
+            <div class="about-content" id="about">
                 <h2>About Our Story</h2>
                 <p>
                     Who are in extremely love with eco-friendly system. Lorem ipsum dolor sit amet, 
@@ -57,7 +68,7 @@
                 <p class="p-3">Who are in extremely love with eco friendly system.</p>
                 </div>
                 
-                <div class="container2" target="self">
+                <div class="container2" target="self" id="menu">
 
                   
     
@@ -139,7 +150,7 @@
         
     </div>
      
-    <div class="container4">
+    <div class="container4" >
         <div class="container4-1">
           <img class=" img1" src="https://themewagon.github.io/marco/img/b1.jpg" >
           <span>29-01-2025</span>
@@ -172,22 +183,22 @@
       
                  
         </div>
-        <div class="containergallery">
+        <div class="containergallery" >
         <section class="gallery">
             <h2>Food and Customer Gallery</h2>
             <p>Who are in extremely love with an eco-friendly system.</p>
     
-            <div class="menu">
+            <div class="menu" id="gallery">
                 <a href="#all" class="active">All Menu</a>
-                <a href="#break-fast" class="active">Breakfast</a>
+                <a href="break-fast" class="active" target="_self">Breakfast</a>
                 <a href="#lun-ch" class="active">Lunch</a>
                 <a href="#dinn-er" class="active">Dinner</a>
                 <a href="#budg-et" class="active">Budget Meal</a>
                 <a href="#buff-et" class="active">Buffet</a>
             </div>
     
-            <div class="images">
-                <div id="all" class="image-container">
+            <div class="images" >
+                <div id="all" class="image-container" >
                     <img src="https://themewagon.github.io/marco/img/g1.jpg" alt="Image 1">
                 
                     <img src="https://themewagon.github.io/marco/img/g2.jpg" alt="Image 2">
@@ -221,8 +232,8 @@
             </div>
         </section>
 </div>
-        <footer class="footer">
-            <div class="container5">
+        <footer class="footer" >
+            <div class="container5" id="contact">
                 <div class="footer-section">
                     <h3>Opening Hours</h3>
                     <p>Monday-Friday <span>08.00 am - 10.00 pm</span></p>
